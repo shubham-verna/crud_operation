@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#nav{
+	height: 80px;
+	width: 100%;
+	background-color: rgb(230, 215, 215);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#nav>a{
+    text-decoration: none;
+	color: rgb(85, 14, 14);           
+	font-size: large;
+	font-weight: 500;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow: 2px 2px 5px rgb(25, 54, 74);
+}
+#mainform{
+    height: 90vh;
+    width: 100%;
+    background: -webkit-linear-gradient(bottom left, whitesmoke 10%, black 20%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#mainform>form{
+	height: 300px;
+	width: 300px;
+	border: 2px solid rgb(134, 94, 19);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
+#mainform>form label{
+	color: whitesmoke;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainform>form input{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid rgb(88, 85, 85) ;
+	color: rgb(230, 234, 239);
+}
+#mainform>form input:focus{
+    outline: none;
+}
+button{
+	color: black;
+	background-color: rgb(209, 158, 6);
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+button:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+h1{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: aqua;
+	font-style: oblique;
+	text-shadow: 2px 0px opx 2px rgb(171, 18, 92);
+}
+
+#users{
+	height: 90vh;
+	width: 100%;
+	background: -webkit-radial-gradient(rgb(68, 141, 19) 20%,rgb(219, 149, 149) 80%);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+.card{
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+	border: 2px solid saddlebrown;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	flex-wrap: wrap;
+}
+table>tr>td{
+       font-size: medium;
+	   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	   /* font-style: italic; */
+	   font-weight: 700;
+	   color: rgb(12, 6, 7);
+	   text-shadow: 2px 0px opx 2px rgb(171, 18, 92);
+	   padding-inline: 20px;
+	   line-height: 50px;
+	
+       
+}
+h2{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: aqua;
+	font-style: oblique;
+	text-shadow: 2px 0px opx 2px rgb(171, 18, 92);
+	line-height: 60px;
+
+	
+}
+btn{
+	color: black;
+	height: 10px;
+	width: 54px;
+	display: inline-block;
+	background-color: rgb(15, 14, 10);
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+	color: beige;
+}
